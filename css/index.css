@@ -1,0 +1,26 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.main_div{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 0px;
+}
+
+.nav_bar_containt .nav_links{
+	text-decoration: none;
+	list-style: none;
+	margin: 15px;
+	font-size: 15px;
+}
+
+.nav_bar_containt .nav_links a{
+	color: black;
+}
+
+.nav_bar_containt .nav_links a:hover{
+	text-decoration: none;
+}
