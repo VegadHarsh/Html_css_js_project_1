@@ -56,6 +56,7 @@
 .div_content{
 	position: relative;
 	text-align: center;
+	margin: 0px 0px 173px 0px;
 }
 
 .text_content{
@@ -104,7 +105,6 @@
 .conatent_box{
 	position: absolute;
 	bottom: -145px;
-	width: 100%;
 	text-align: left;
 }
 

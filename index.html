@@ -11,12 +11,13 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="..\Html_css_project\css\index.css">
+    <link rel="stylesheet" type="text/css" href="..\Html_css_project\css\section_2.css">
 	<title>Bhavan Bhavsar</title>
 </head>
 <body>
 	<section class="section_1">
 		<!-- Navbar -->
-		<div class="main_section_1">
+		<div class="main_section_1" id="Home_page">
 			<div class="main_div">
 				<div class="img_logo">
 					<img src="..\Html_css_project\assets\img\img_1.jpg">
@@ -24,8 +25,8 @@
 				<div class="nav_bar">
 					<nav class="nav_bar">
 						<ul class="nav_bar_containt d-flex">
-							<li class="nav_links"><a href="#" class="cyan">Home</a></li>
-							<li class="nav_links"><a href="#">About Us</a></li>
+							<li class="nav_links"><a href="#Home_page" class="cyan">Home</a></li>
+							<li class="nav_links"><a href="#About_Us_page">About Us</a></li>
 							<li class="nav_links"><a href="#">Services</a></li>
 							<li class="nav_links"><a href="#">Facilities</a></li>
 							<li class="nav_links"><a href="#">Doctor</a></li>
@@ -87,10 +88,35 @@
 		</div>
 	</section>
 
-	<section class="section_2">
-		<div class="main_section_2">
-			<div class="doctor_img">
-				<img src="..\Html_css_project\assets\img\Doctor_img.jpg">
+	<!-- About Us -->
+	<section class="section_2" id="About_Us_page">
+		<div class="container">
+			<div class="row main_section_2">
+				<div class="col-md-6 doctor_img">
+					<img src="..\Html_css_project\assets\img\Doctor_img.jpg" class="ml-4">
+				</div>
+				<div class="col-md-6 contant_text">
+					<h3 class="mt-5 mb-1">About Us</h3>
+					<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+					<div class="text d-flex mb-3">
+						<i class="far fa-check-circle"></i>
+						<div class="about_text ml-3">
+							<h6>Recognized For Excellence</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore.</p>
+						</div>
+					</div>
+					<div class="text d-flex">
+						<i class="far fa-check-circle"></i>
+						<div class="about_text ml-3">
+							<h6>Boost Self-Esteem and Confidence</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore.</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

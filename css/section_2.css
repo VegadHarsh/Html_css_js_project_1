@@ -1,0 +1,21 @@
+.contant_text h3{
+	color: #4AB6CA;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.contant_text p{
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.contant_text h6{
+	color: #4AB6CA;
+	font-size: 19px;
+}
+
+.text i{
+	color: #4AB6CA;
+	font-size: 27px;
+	line-height: 23px;
+}
