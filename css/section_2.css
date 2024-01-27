@@ -1,7 +1,10 @@
-.contant_text h3{
+.section_2{
+	margin-bottom: 57px;
+}
+
+.contant_text h2{
 	color: #4AB6CA;
 	font-weight: bolder;
-	font-size: 30px;
 }
 
 .contant_text p{

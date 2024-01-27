@@ -42,15 +42,11 @@
 }
 
 .main_img_technology{
-	height: 400px;
 	overflow: hidden;
 	position: relative;
-	width: 100%;
 	top: -49px;
 	border-bottom-right-radius: 100% 300px;
 	border-bottom-left-radius: 100% 300px;
-	transform: translateX(-0px) scale(1);
-	object-fit: cover;
 }
 
 .div_content{
